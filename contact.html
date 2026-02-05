@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>My Personal Blog - Contact</title>
+    </head>
+    <body>
+        <header>
+            <h1>Contact</h1>
+            <nav>
+                <a href="blog.html">Blog</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <hr />
+        </header>
+
+        <main>
+            <section>
+                <h2>Get in touch</h2>
+                <p>
+                    Use the form below to send a message. (This is a pure HTML
+                    form ecample, if you want it actually send, set a real
+                    server-side <code>action</code> url or use an email form
+                    service.)
+                </p>
+
+                <!-- Contact form (HTML) -->
+                <form action="#" method="post">
+                    <p>
+                        <label for="name">Your name:</label> <br />
+                        <input type="text" id="name" name="name" required />
+                    </p>
+
+                    <p>
+                        <label for="email">Your email:</label> <br />
+                        <input type="email" name="email" id="email" required />
+                    </p>
+
+                    <p>
+                        <label for="reason">Reason for contact:</label> <br />
+                        <select name="reason" id="reason">
+                            <option value="question">Question</option>
+
+                            <option value="collab">Collaboration</option>
+
+                            <option value="feedback">Feedback</option>
+
+                            <option value="other">Other</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <label for="message">message</label> <br />
+                        <textarea
+                            name="message"
+                            id="message"
+                            rows="6"
+                            cols="50"
+                            placeholder="Write your message here..."
+                            required
+                        ></textarea>
+                    </p>
+
+                    <p>
+                        <label>
+                            <input
+                                type="checkbox"
+                                name="subscribe"
+                                value="yes"
+                            />
+                            Subscribe to occasional updates
+                        </label>
+                    </p>
+
+                    <p>
+                        <button type="submit">Send Message</button>
+                        <button type="reset">Reset</button>
+                    </p>
+                </form>
+
+                <h3>Contact info</h3>
+                <address>
+                    Email:
+                    <a href="mailto:yourmail@example.com"
+                        >yourmail@example.com</a
+                    >
+                    <br />
+
+                    twitter:
+                    <a
+                        href="https://twitter.com/example"
+                        target="_blank"
+                        rel="noopener"
+                        >@xample</a
+                    >
+                </address>
+            </section>
+        </main>
+
+        <footer>
+            <hr />
+            <p>
+                &copy; 2025 My Personal Blog -
+                <a href="blog.html">Home</a>
+            </p>
+        </footer>
+    </body>
+</html>
