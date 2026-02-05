@@ -1,6 +1,5 @@
 # 🚀 MERN Stack Development
-### My Learning Journey | Habib's Portfolio
-
+### My Learning Journey
 Welcome to my daily task repository! I am **Habib**, a learner based in **Dhaka, Bangladesh**, currently focusing on Web Development, Programming projects, and personal productivity. This space documents my progress in the MERN Stack journey.
 
 ---
